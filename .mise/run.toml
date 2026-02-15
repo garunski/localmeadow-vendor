@@ -1,0 +1,63 @@
+# Mise tasks for Local Meadow Vendor
+
+# Development tasks
+[dev]
+description = "Start the vendor panel in development mode"
+run = "npm run dev"
+
+[build]
+description = "Build the vendor panel for production"
+run = "npm run build"
+
+["build:preview"]
+description = "Build for preview (Vite build)"
+run = "npm run build:preview"
+
+[preview]
+description = "Preview production build"
+run = "npm run preview"
+
+# Testing tasks
+[test]
+description = "Run all tests"
+run = "npm test"
+
+# Code quality tasks
+[lint]
+description = "Lint the codebase"
+run = "npm run lint"
+
+[format]
+description = "Format code with Prettier"
+run = "npm run format"
+
+[typecheck]
+description = "Run TypeScript type checking"
+run = "npm run typecheck"
+
+# Internationalization tasks
+["i18n:validate"]
+description = "Validate translations"
+run = "npm run i18n:validate"
+
+["i18n:schema"]
+description = "Generate translation schema"
+run = "npm run i18n:schema"
+
+# Static generation tasks
+["generate:static"]
+description = "Generate static assets (currencies)"
+run = "npm run generate:static"
+
+# Backlog tasks
+["backlog-browser"]
+description = "Open the backlog browser for visual task management"
+run = "mise exec -- backlog browser"
+
+["backlog-overview"]
+description = "Show backlog overview"
+run = "mise exec -- backlog overview"
+
+["backlog-tasks"]
+description = "List all backlog tasks"
+run = "mise exec -- backlog task list --plain"

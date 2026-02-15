@@ -1,0 +1,24 @@
+version: 1
+project_name: "Local Meadow Vendor Panel"
+description: "Vendor admin panel for Local Meadow marketplace"
+owner: "@garunnvagidov"
+repository: "https://github.com/localmeadow/localmeadow-vendor"
+workspace: "/Users/garunnvagidov/code/localmeadow/localmeadow-vendor"
+
+workflows:
+  - name: "development"
+    description: "Development workflow"
+    default: true
+
+statuses:
+  - "Backlog"
+  - "Todo"
+  - "In Progress"
+  - "Done"
+  - "Blocked"
+
+priorities:
+  - "Low"
+  - "Medium"
+  - "High"
+  - "Urgent"
