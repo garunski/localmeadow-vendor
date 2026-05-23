@@ -2,7 +2,7 @@
 
 Vendor admin panel for Local Meadow marketplace. Built on [MercurJS Vendor Panel](https://github.com/mercurjs/vendor-panel).
 
-**Documentation**: In the **localmeadow-docs** repo under `backlog/docs/` and `backlog/decisions/`. From that repo: `mise exec -- backlog doc list` then `mise exec -- backlog doc view <id>`.
+**Documentation**: In the **localmeadow-docs** repo under `.s_e_e/knowledge/docs/` and `.s_e_e/knowledge/decisions/`.
 
 ## Features
 
@@ -62,11 +62,6 @@ mise run test             # Run tests
 # Internationalization
 mise run i18n:validate    # Validate translations
 mise run i18n:schema      # Generate translation schema
-
-# Backlog Management
-mise run backlog-browser  # Open backlog UI
-mise run backlog-overview # Show backlog overview
-mise run backlog-tasks    # List all tasks
 ```
 
 ## Tech Stack
